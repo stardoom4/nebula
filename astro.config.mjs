@@ -29,6 +29,7 @@ export default defineConfig({
   integrations: [
     starlight({
       title: "Wunder",
+      tableOfContents: false,
       social: {
         github: "https://github.com/stardoom4/nebula",
       },
